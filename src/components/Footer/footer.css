@@ -12,9 +12,21 @@
     order: 1;
   }
 
+  .social-media {
+    display: flex;
+    justify-content: center;
+    order: 2;
+  }
+
   .contact-info {
     text-align: right;
     order: 3;
+  }
+
+  .social-media img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
   }
 
   .contact-info p {
