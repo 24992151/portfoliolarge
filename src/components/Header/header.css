@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #FDE7C0;
+    font-size: 18px;
+}
+
+.logo-container {
+    background-image: url('../../assets/dubailogo1.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 70px;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #033C2E;
+}
+
+.space {
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #999999;
+}
