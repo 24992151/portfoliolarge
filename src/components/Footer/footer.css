@@ -1,0 +1,22 @@
+.footer {
+    background-color: #FDE7C0;
+    color: #033C2E;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .copyright {
+    font-size: 14px;
+    order: 1;
+  }
+
+  .contact-info {
+    text-align: right;
+    order: 3;
+  }
+
+  .contact-info p {
+    margin: 0;
+  }
