@@ -18,3 +18,30 @@
   margin-bottom: 20px;
   text-align: center;
 }
+
+/* CSS Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Mobile Cross platforming */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .overlay {
+    font-size: 1.5rem;
+  }
+}
