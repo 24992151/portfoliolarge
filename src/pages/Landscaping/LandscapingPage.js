@@ -1,13 +1,23 @@
 import React from 'react';
 import './landscapingPage.css'; // Import your CSS file for styling
-// import Gazebo from '../../assets/gazeboimage.jpg'; // Importing images
-// import Pergola from '../../assets/pergolaimage.jpg';
-// import Decking from '../../assets/deckingimage.jpg';
-// import Paving from '../../assets/pavingimage.jpg';
-// import Water from '../../assets/waterimage.jpg';
-// import Bbq from '../../assets/bbqimage.jpg';
+import Gazebo from '../../assets/gazeboimage.jpg'; // Importing images
+import Pergola from '../../assets/pergolaimage.jpg';
+import Decking from '../../assets/deckingimage.jpg';
+import Paving from '../../assets/pavingimage.jpg';
+import Water from '../../assets/waterimage.jpg';
+import Bbq from '../../assets/bbqimage.jpg';
 
 const LandscapingPage = () => {
+  // Defining the array of objects for grid
+  const images = [
+    { src: Gazebo, overlay: 'Gazebos' },
+    { src: Pergola, overlay: 'Pergolas' },
+    { src: Decking, overlay: 'Decking' },
+    { src: Paving, overlay: 'Paving' },
+    { src: Water, overlay: 'Water Features' },
+    { src: Bbq, overlay: 'Barbecue Areas' },
+  ];
+
   return (
     // Hero Bar
     <section>
@@ -21,6 +31,16 @@ const LandscapingPage = () => {
           <p>
             Dubai Landscapes is one of the most experienced and reliable garden landscaping companies in the UAE. Experts in both soft and hard landscaping, we’re able to do it all, from providing perfect paving to enhancing gardens with flowers and plants that are able to withstand the UAE’s unique climate. Our team is full of local experts who have extensive knowledge of the type of plants that will work best for your outdoor space. Our range of landscaping services includes:
           </p>
+        </section>
+
+        {/* Grid Content */}
+        <section className="grid-container">
+          {images.map((image, index) => (
+            <section key={index} className="grid-item">
+              <img src={image.src} alt={image.overlay} />
+              <div className="overlay">{image.overlay}</div>
+            </section>
+          ))}
         </section>
 
         {/* Section 2 Content */}
