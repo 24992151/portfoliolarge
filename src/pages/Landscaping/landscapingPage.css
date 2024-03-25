@@ -58,6 +58,17 @@
   font-weight: bold;
 }
 
+/* Mobile Cross platforming */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .overlay {
+    font-size: 1.5rem;
+  }
+}
+
 /* Section 2 Content */
 .section2-content {
   background-color: white;
