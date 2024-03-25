@@ -37,3 +37,20 @@
     margin-left: 15px;
     color: #999999;
 }
+
+/* Media query for mobile compatibility*/
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .nav-container {
+        margin-top: 20px;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+        padding: 5px;
+    }
+}
