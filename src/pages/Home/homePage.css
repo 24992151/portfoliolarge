@@ -1,8 +1,10 @@
+/* Set hero image to fill container width */
 .hero-image {
   width: 100%;
   height: auto;
 }
 
+/* Style overlay */
 .overlay {
   position: absolute;
   top: 50%;
@@ -13,18 +15,20 @@
   z-index: 1;
 }
 
-/* Media query 1 - overlays */
+/* Media query for smaller screens - adjust overlay font size and position */
 @media (max-width: 768px) {
   .overlay {
-      font-size: 1rem;
-      top: 29%;
+    font-size: 1rem; /* Smaller fonts and postioning hero */
+    top: 29%;
   }
 }
 
+/* Apply padding to all sections */
 .section1, .section2, .section3 {
   padding: 0 20px;
 }
 
+/* Style section 1 */
 .section1 {
   padding: 50px;
   display: flex;
@@ -32,6 +36,16 @@
   flex-direction: column;
 }
 
+/* Style sections w/ background colours */
+.section2 {
+  background-color: #A0B98F;
+}
+
+.section3 {
+  background-color: white;
+}
+
+/* Style section texts and headings */
 .section-heading {
   text-align: center;
   margin-bottom: 20px;
@@ -42,6 +56,7 @@
   font-size: 1.5rem;
 }
 
+/* Container width filling */
 .section-image-left,
 .section-image-right {
   width: 50%;
@@ -49,10 +64,12 @@
   max-width: 100%;
 }
 
+/* Centring content */
 .section-heading {
   text-align: center;
 }
 
+/* Flex layout for sections 2 and 3 */
 .section2, .section3 {
   display: flex;
   align-items: center;
@@ -63,6 +80,7 @@
   height: auto;
 }
 
+/* padding content */
 .section-content-right {
   padding: 20px 0 20px 20px;
 }
