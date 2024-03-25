@@ -1,0 +1,20 @@
+/* projectsPage.css */
+.projects-title-bar {
+  background-color: #A0B98F;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.content {
+  margin: 20px;
+}
+
+.section1-content {
+  color: black;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
