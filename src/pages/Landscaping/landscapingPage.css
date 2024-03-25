@@ -20,6 +20,21 @@
   text-align: center;
 }
 
+/* CSS GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.grid-item img {
+  width: 100%;
+}
+
 /* Hero Overlay */
 .overlay {
   position: absolute;
@@ -29,6 +44,18 @@
   color: white;
   padding: 10px;
   font-size: 1.2rem;
+}
+
+/* Imagery Overlays */
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* Section 2 Content */
