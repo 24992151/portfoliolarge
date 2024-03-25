@@ -13,6 +13,14 @@
   z-index: 1;
 }
 
+/* Media query 1 - overlays */
+@media (max-width: 768px) {
+  .overlay {
+      font-size: 1rem;
+      top: 29%;
+  }
+}
+
 .section1, .section2, .section3 {
   padding: 0 20px;
 }
