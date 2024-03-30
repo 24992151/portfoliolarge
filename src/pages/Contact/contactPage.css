@@ -1,0 +1,76 @@
+/* Hero */
+.contact-title-bar {
+  background-color: #A0B98F;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* Contact method container */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Contact method images */
+.contact-info img {
+  width: 30px;
+}
+
+/* Contact method text */
+.contact-info p {
+  margin: 0;
+}
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .contact-method {
+    padding-left: 0;
+  }
+}
+
+/* Contact forms */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+/* form innput fields */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  height: 470px;
+}
+
+/* Buttons for contact form*/
+.contact-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #A0B98F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #8AAE78;
+}
