@@ -1,3 +1,5 @@
+For Reference, node_modules was removed due to the extensive size of the project files. If you wish to run this file, copy and paste my src folder into a new react project to 'npm start'
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
