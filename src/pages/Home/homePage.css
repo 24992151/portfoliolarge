@@ -1,11 +1,11 @@
-/* Set hero image to fill container width */
+/* Hero Image */
 .hero-image {
   width: 100%;
   height: auto;
 }
 
-/* Style overlay */
-.overlay {
+/* Style overlay for home */
+.overlayh {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -17,9 +17,17 @@
 
 /* Media query for smaller screens - adjust overlay font size and position */
 @media (max-width: 768px) {
-  .overlay {
-    font-size: 1rem; /* Smaller fonts and postioning hero */
+  .overlayh {
+    font-size: 1rem;
     top: 29%;
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .section2 .section-text,
+  .section3 .section-text {
+    font-size: 1rem;
   }
 }
 
